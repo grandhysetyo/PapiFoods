@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAPI FOODS</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.png"> 
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <div class="container">
+          <div class="d-flex flex-grow-1">
+              <a href="/" class="navbar-brand"><title-section text1='PAPI' text2='FOODS'></title-section></a>
+              <form class="mr-2 my-auto w-100 d-inline-block order-1">
+                  <div class="input-group">
+                      <input type="text" class="form-control border border-right-0" placeholder="Search..." id="search">
+                      <span class="input-group-append">
+                          <button class="btn btn-outline-dark border border-left-0" type="button" id="searchBtn">
+                              <i class="fas fa-search"></i>
+                          </button>
+                      </span>
+                  </div>
+              </form>
+          </div>
+          <button class="navbar-toggler order-0" type="button" data-toggle="collapse" data-target="#navbar7">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse flex-shrink-1 flex-grow-0 order-last" id="navbar7">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    KATEGORI
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/category.html?id=1">Beef</a>
+                    <a class="dropdown-item" href="/category.html?id=2">Chicken</a>
+                    <a class="dropdown-item" href="/category.html?id=3">Dessert</a>                    
+                    <a class="dropdown-item" href="/category.html?id=8">Seafood</a>
+                    <a class="dropdown-item" href="/category.html?id=14">Goat</a>
+                  </div>
+                </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="list.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="far fa-user"></i></a>
+                  </li>
+              </ul>
+          </div>
+          </div>
+      </nav>
+    </header>
+    <main>
+      <!-- BANNER -->
+      <section>
+        <div class="container">
+          <div class="row">            
+              <div class="banner">
+                <title-section text1='PAPI' text2='FOODS'></title-section>
+                <p>The hero of young father special food recipes</p>
+                <p>Let's Find Your Favorite Food Recipe!!</p>                
+              </div>                  
+          </div>                    
+        </div>
+      </section>
+      
+      <!-- MENU KATEGORI -->
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">              
+                <title-section text1='CATEGORY' text2='FOODS'></title-section>
+            </div>
+            <div class="col-12">
+              <menu-bar></menu-bar>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- LIST FOOD -->
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">              
+              <title-section text1='BEST' text2='FOODS'></title-section>
+            </div>            
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <list-food></list-food>
+            </div>
+          </div>
+        </div> 
+      </section>
+      <!-- ABOUT -->
+      <section>
+        <div class="container">
+          <div class="row d-flex align-items-center mb-5">
+            <div class="col-md-6">
+              <img class='hero-about' src="./assets/undraw_healthy_options.png" alt='' />
+            </div>
+            <div class="col-md-6">
+              <div class="card-about">
+                <title-section text1='ABOUT PAPI' text2='FOODS'></title-section>
+                <p>Papi Foods is a website that provides information on recipes and cooking easily without fear of failure. The choice of food recipes presented is food from around the world. Some of the main features of Papi Foods include an attractive display that supports smartphone, tablet and laptop devices, recipe search feature, recipe details, and the ability to save food recipes</p>
+              </div>              
+            </div>
+          </div>
+        </div> 
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <p>Papi Foods &copy; 2021 by grandhysetyo</p>
+        </div>
+      </div>      
+    </footer>
+</body>
+</html>

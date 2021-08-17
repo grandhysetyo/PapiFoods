@@ -1,0 +1,59 @@
+@import "~bootstrap/scss/bootstrap";
+html {
+    position: relative;
+    min-height: 100%;
+}
+body{
+    margin: 0;
+    // position: relative;
+    // min-height: 100%;
+}
+.banner{    
+    width: 100%;
+    margin: 2% 0;
+    padding: 15% 5%;
+    background-image: url('/src/assets/banner.jpg');            
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    title-section{
+        font-size: 26px;
+    }
+}
+list-food{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: stretch; 
+    margin-bottom: 50px;          
+}
+
+
+.hero-about{
+    display: block;
+    width: 100%;
+}
+.card-about{
+    margin-bottom: 50px;
+    title-section{
+        font-size: 24px;
+    }
+    p{
+        color: #505050;
+    }
+}
+
+.img-tb{
+    display: block;
+    width: 150px;
+}
+
+footer{    
+    background-color: #FB9A00;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    p{
+        color: #ffffff;
+        margin: 12px 0;
+    }
+}
