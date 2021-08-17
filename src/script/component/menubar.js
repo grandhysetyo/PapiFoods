@@ -1,3 +1,9 @@
+import beef from '../../assets/cat-beef.png';
+import chicken from '../../assets/cat-chicken.png';
+import dessert from '../../assets/cat-dessert.png';
+import seafood from '../../assets/cat-seafood.png';
+import goat from '../../assets/cat-goat.png';
+
 class MenuBar extends HTMLElement {
     constructor(){
         super();
@@ -57,23 +63,23 @@ class MenuBar extends HTMLElement {
           </style>
           <div class="card-menu">
             <a class="category-link" href="/category.html?id=1">
-              <img src="../src/assets/cat-beef.png" alt="" />
+              <img src="${beef}" alt="" />
               <span>Beef</span>
             </a>
             <a class="category-link" href="/category.html?id=2">
-              <img src="../src/assets/cat-chicken.png" alt="" />
+              <img src="${chicken}" alt="" />
               <span>Chicken</span>
             </a>
             <a class="category-link" href="/category.html?id=3">
-              <img src="../src/assets/cat-dessert.png" alt="" />
+              <img src="${dessert}" alt="" />
               <span>Dessert</span>
             </a>
             <a class="category-link" href="/category.html?id=8">
-              <img src="../src/assets/cat-seafood.png" alt="" />
+              <img src="${seafood}" alt="" />
               <span>Seafood</span>
             </a>
             <a class="category-link" href="/category.html?id=14">
-              <img src="../src/assets/cat-goat.png" alt="" />
+              <img src="${goat}" alt="" />
               <span>Goat</span>
             </a>
           </div>

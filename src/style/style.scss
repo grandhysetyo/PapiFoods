@@ -5,14 +5,11 @@ html {
 }
 body{
     margin: 0;
-    // position: relative;
-    // min-height: 100%;
 }
 .banner{    
     width: 100%;
     margin: 2% 0;
-    padding: 15% 5%;
-    background-image: url('/src/assets/banner.jpg');            
+    padding: 15% 5%;         
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
